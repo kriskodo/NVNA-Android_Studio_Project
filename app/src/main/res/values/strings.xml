@@ -1,0 +1,20 @@
+<resources>
+	<string name="app_name">KristianApp</string>
+	<string name="title_home">Home</string>
+	<string name="home_intro">Hi Dear fellow, welcome to my first application!</string>
+	<string name="home_button_viewCalculator">See Calculator</string>
+	<string name="title_dashboard">Dashboard</string>
+	<string name="title_notifications">Notifications</string>
+	<string name="title_activity_calculator">Calculator</string>
+	<string name="calculator_pick_operation">Pick an operation</string>
+	<string name="calculator_result_text">Result</string>
+	<string name="channel_name">krisko</string>
+	<string name="channel_description">kanala na krisko</string>
+	<string name="CHANNEL_ID">"12345"</string>
+	<string name="zodiac_btn_submit">What is my Zodiac Sign?</string>
+	<string name="home_button_viewZodiac">View Zodiac</string>
+	<string name="CHANNEL_ID_ZODIAC">234567</string>
+	<string name="channel_name_zodiac">Zodiac</string>
+	<string name="channel_description_zodiac">Zodiac information</string>
+	<string name="zodiac_btn_submit_toast">Show Picked Date</string>
+</resources>

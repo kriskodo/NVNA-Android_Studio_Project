@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:fitsSystemWindows="true"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+	<com.google.android.material.appbar.AppBarLayout
+			android:id="@+id/appbar"
+			android:fitsSystemWindows="true"
+			android:layout_height="192dp"
+			android:layout_width="match_parent">
+
+		<androidx.constraintlayout.utils.widget.ImageFilterView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:src="@drawable/ic_banner_foreground"
+				android:id="@+id/imageFilterView2"/>
+	</com.google.android.material.appbar.AppBarLayout>
+
+	<androidx.core.widget.NestedScrollView
+			android:layout_width="wrap_content"
+			android:layout_height="536dp"
+			app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+		<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				>
+
+			<ImageView
+					android:layout_width="452dp"
+					android:layout_height="150dp"
+					android:src="@drawable/zodiacicon"
+					android:contentDescription="@string/title_activity_calculator"
+					android:cropToPadding="false"
+					android:layout_marginTop="10dp"
+					android:layout_marginBottom="10dp"/>
+
+			<DatePicker
+				android:id="@+id/pickedDate"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:datePickerMode="spinner"
+				android:calendarViewShown="false"
+			/>
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/zodiac_btn_submit"
+				android:onClick="submitZodiacData"
+			/>
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/zodiac_btn_submit_toast"
+				android:onClick="submitZodiacToast"
+			/>
+		</LinearLayout>
+	</androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
