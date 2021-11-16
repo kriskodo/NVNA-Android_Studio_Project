@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+	  xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/menu_item_like"
+		android:title="@string/mcdonalds_item_like"
+		android:icon="@drawable/heart"
+		app:showAsAction="always"
+	/>
+
+	<item
+		android:id="@+id/menu_item_information"
+		android:title="@string/mcdonalds_item_info"
+		android:icon="@drawable/info"
+		app:showAsAction="ifRoom"
+	/>
+
+	<item
+		android:id="@+id/menu_item_purchase_history"
+		android:title="@string/mcdonalds_purchase_history"
+		app:showAsAction="never"
+	/>
+</menu>

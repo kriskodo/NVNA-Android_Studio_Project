@@ -13,6 +13,8 @@
 		</activity>
 		<activity android:name=".Zodiac">
 		</activity>
+		<activity android:name=".McDonaldsMenu">
+		</activity>
 		<activity
 				android:name=".MainActivity"
 				android:exported="true"

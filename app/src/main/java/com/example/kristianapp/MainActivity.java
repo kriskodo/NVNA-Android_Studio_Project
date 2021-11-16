@@ -45,4 +45,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Zodiac.class);
         startActivity(intent);
     }
+
+    public void openMcDonaldsMenu(View view) {
+        Intent intent = new Intent(this, McDonaldsMenu.class);
+        startActivity(intent);
+    }
 }

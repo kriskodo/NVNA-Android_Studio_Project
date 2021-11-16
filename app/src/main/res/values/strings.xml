@@ -17,4 +17,18 @@
 	<string name="channel_name_zodiac">Zodiac</string>
 	<string name="channel_description_zodiac">Zodiac information</string>
 	<string name="zodiac_btn_submit_toast">Show Picked Date</string>
+	<string name="home_button_viewMcdonalds">View McDonald\'s Shop</string>
+	<string name="mcdonalds_welcome">Добре Дошли в McDonald\'s!</string>
+	<string name="mcdonalds_chooseproduct">Изберете продукт</string>
+	<string name="mcdonalds_bigmack">БИГ МАК\nСусамено хлебче с две парчета телешко месо и специален сос Биг Мак, прясна салата, сирене Чедър, резенчета кисела краставичка и лук.</string>
+	<string name="mcdonalds_chicken">МАКЧИКЪН\nВкусно златисто пилешко месо в топло, току-що  изпечено сусамено хлебче, свежа салата и  специален МакЧикън сос.</string>
+	<string name="mcdonalds_fish">ФИЛЕ-О-ФИШ\nТопла питка, филе от бяла риба, сос Тартар и сирене Чедър.</string>
+	<string name="mcdonalds_item_like">Like</string>
+	<string name="mcdonalds_item_info">Information</string>
+	<string name="mcdonalds_purchase_history">Количка</string>
+	<string name="mcdonalds_context_menu_add_to_fav">Добави в любими</string>
+	<string name="mcdonalds_context_menu_add_to_purch">Добави в количка</string>
+	<string name="mcdonalds_image_fish_desc">Image of Fish</string>
+	<string name="mcdonalds_image_chicken_desc">Image of a chicken</string>
+	<string name="mcdonalds_image_bigmac_desc">Image of a BIG MAC</string>
 </resources>

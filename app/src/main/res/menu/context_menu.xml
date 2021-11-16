@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/mcdonalds_context_menu_add_to_favorites"
+		android:title="@string/mcdonalds_context_menu_add_to_fav"
+	/>
+
+	<item
+		android:id="@+id/mcdonalds_context_menu_add_to_purchase"
+		android:title="@string/mcdonalds_context_menu_add_to_purch"
+	/>
+</menu>

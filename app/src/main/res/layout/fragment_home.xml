@@ -60,6 +60,13 @@
 					android:layout_height="wrap_content"
 					android:id="@+id/home_intro_zodiac"
 					android:onClick="openZodiacView"/>
+
+			<Button
+					android:text="@string/home_button_viewMcdonalds"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/home_intro_mcDonalds"
+					android:onClick="openMcDonaldsMenu"/>
 		</LinearLayout>
 	</androidx.core.widget.NestedScrollView>
 
